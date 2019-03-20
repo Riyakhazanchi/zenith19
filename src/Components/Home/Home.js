@@ -33,7 +33,7 @@ const Home = () =>{
 		        	Where innovation meets implementation.
 		        </p>
 		        <p className="th-April   b--white center">
-		            7-8th April
+		            13th April
 		        </p>
 
 
