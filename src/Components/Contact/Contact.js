@@ -29,7 +29,8 @@ const Contact = () =>{
 		   <p className='address'>
 		    JCB University of Science and Technology, YMCA Faridabad, Sector 6, Faridabad 
            </p>
-		   <p className='developer'>Developer: RAVINDER and SAGAR</p>
+		   <p className='developer'>Developers: Ravinder and Sagar</p>
+
 
 		</div>
 

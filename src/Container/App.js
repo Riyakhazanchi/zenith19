@@ -3,6 +3,7 @@ import './App.css';
 import 'tachyons';
 import Particles from 'react-particles-js';
 import Fullpage from './Fullpage.js';
+import { Helmet } from 'react-helmet'
 
 const particleOptions={
   "particles": {
@@ -27,7 +28,10 @@ const particleOptions={
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="App" >
+        <Helmet>
+          <title>Zenith19</title>
+        </Helmet>
         <Particles className="particles bg-black" params={{particleOptions}} />
         <Fullpage/>
       </div>

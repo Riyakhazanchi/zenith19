@@ -11,13 +11,13 @@
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #ffa500; 
+  background: gray; 
   border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: gray; 
+  background: #ffa500; 
 }
 
 #container .box {
@@ -70,6 +70,8 @@
   margin-bottom: 0px;
   overflow-y:scroll;
   overflow-x:hidden;
+  overflow-scrolling: auto;
+  -webkit-overflow-scrolling: auto;
   transform: rotate(270deg) translateX(-100%);
   transform-origin: top left;
   background-color:transparent;
